@@ -3,16 +3,9 @@ using namespace std;
 
 int main() {
    
-   float a=0;
-   float b=0;
-   float x=0;
-   float z=0;
+   float a=0,b=0,x=0,z=0;
    
-   cin >> a;
-   cin >> b;
-   cin >> x;
-   cin >> y;
-   cin >> z;
+   cin>>a>>b>>x>>y;
    
    if (x<0 && y>0){
       z=a*x-b*y;
